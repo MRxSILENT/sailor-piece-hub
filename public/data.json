@@ -1,0 +1,1353 @@
+{
+  "meta": {
+    "lastUpdated": "2026-04-17",
+    "version": "3.0",
+    "game": "Sailor Piece",
+    "season": "Pre-Sea 2 (Ice Update)",
+    "sources": [
+      "https://beebom.com/sailor-piece-tier-list/",
+      "https://www.destructoid.com/sailor-piece-tier-list-best-swords-fruits-races-traits-accessories-runes-and-melee/",
+      "https://sailorpiece.org/",
+      "https://roblox-sailor-piece.fandom.com/wiki/"
+    ],
+    "upcomingUpdate": "Sea 2 — expected April 18-19, 2026 (4 new islands, Guilds, Bloodlines, World Bosses)"
+  },
+  "tierColors": {
+    "S+": "#ff9a3c",
+    "S": "#ff4757",
+    "A": "#ffd32a",
+    "B": "#2ed573",
+    "C": "#1e90ff",
+    "D": "#747d8c"
+  },
+  "fruits": {
+    "S+": [
+      {
+        "name": "Dragon Fruit",
+        "emoji": "🐉",
+        "description": "Most versatile fruit — flight + massive damage. Best all-rounder in the game as of March 2026.",
+        "tags": [
+          "pvp",
+          "farming",
+          "boss"
+        ],
+        "rarity": "Mythic",
+        "location": "Fruit Dealer / Ground Spawn",
+        "fruitType": "Beast"
+      },
+      {
+        "name": "Fiend Fruit",
+        "emoji": "👹",
+        "description": "Best life-steal damage fruit. Excellent for both PvP and PvE sustainability.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "rarity": "Mythic",
+        "location": "Fruit Dealer / Ground Spawn",
+        "fruitType": "Natural"
+      },
+      {
+        "name": "Kitsune Fruit",
+        "emoji": "🦊",
+        "description": "Best farming fruit — Lucky Multiplier is unmatched for rare drops and grinding.",
+        "tags": [
+          "farming"
+        ],
+        "rarity": "Mythic",
+        "location": "Fruit Dealer / Ground Spawn",
+        "fruitType": "Beast"
+      }
+    ],
+    "S": [
+      {
+        "name": "Light Fruit",
+        "emoji": "✨",
+        "description": "Best Legendary fruit — serious damage output + flight for fast map traversal. Top-tier for PvE and PvP.",
+        "tags": [
+          "pvp",
+          "farming",
+          "speed"
+        ],
+        "rarity": "Legendary",
+        "location": "Fruit Dealer (Legendary spin)",
+        "fruitType": "Elemental"
+      },
+      {
+        "name": "Quake Fruit",
+        "emoji": "💥",
+        "description": "Strong AoE damage, great for boss fights and mob grinding. Raw power near the top despite no mobility.",
+        "tags": [
+          "pvp",
+          "boss",
+          "aoe"
+        ],
+        "rarity": "Legendary",
+        "location": "Fruit Dealer (Legendary spin)",
+        "fruitType": "Natural"
+      }
+    ],
+    "A": [
+      {
+        "name": "Flame Fruit",
+        "emoji": "🔥",
+        "description": "Solid early and mid-game fruit with reliable AoE. Doesn't scale as well into the late game.",
+        "tags": [
+          "farming",
+          "aoe"
+        ],
+        "rarity": "Rare",
+        "location": "Fruit Dealer (Rare spin) / Ground Spawn",
+        "fruitType": "Elemental"
+      }
+    ],
+    "B": [
+      {
+        "name": "Bomb Fruit",
+        "emoji": "💣",
+        "description": "Decent burst damage but lacks skill variety. Falls behind stronger fruits.",
+        "tags": [
+          "boss"
+        ],
+        "rarity": "Rare",
+        "location": "Fruit Dealer (Rare spin)",
+        "fruitType": "Natural"
+      }
+    ],
+    "D": [
+      {
+        "name": "Invisible Fruit",
+        "emoji": "👻",
+        "description": "Stealth utility but almost no combat value. Avoid if damage is your priority.",
+        "tags": [],
+        "rarity": "Common",
+        "location": "Fruit Dealer (Common spin)",
+        "fruitType": "Natural"
+      }
+    ]
+  },
+  "swords": {
+    "S+": [
+      {
+        "name": "Ice Queen",
+        "emoji": "❄️",
+        "description": "Best AoE and burst damage with low cooldowns. Added in the Ice Update (April 8, 2026).",
+        "tags": [
+          "pvp",
+          "boss",
+          "farming"
+        ],
+        "location": "Boss Island — Frost Boss drop",
+        "requirements": "Frost Empress Title + Ice Queen materials"
+      },
+      {
+        "name": "Atomic",
+        "emoji": "⚛️",
+        "description": "Highest raw damage in the game. Extremely difficult to obtain but worth every step.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Lawless Island",
+        "requirements": "Shadow Sword + Eminence Incarnate Title + Atomic materials"
+      },
+      {
+        "name": "Shadow Monarch",
+        "emoji": "👑",
+        "description": "Highest overall damage of all swords. Excellent burst with V and F skills. Not ideal for AFK farming.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Dungeon Island",
+        "requirements": "King of Shadows Title + Jinwoo Sword + Monarch materials"
+      }
+    ],
+    "S": [
+      {
+        "name": "Abyssal Empress",
+        "emoji": "🌊",
+        "description": "Great late-game sword, relatively easy to obtain via Infinite Tower farming.",
+        "tags": [
+          "boss",
+          "farming"
+        ],
+        "location": "Tower Island",
+        "requirements": "Infinite Tower drop or shop"
+      },
+      {
+        "name": "True Aizen",
+        "emoji": "🌙",
+        "description": "Extremely high damage, amazing AoE on all skills, fast animations. Best for farming bosses and dungeons.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Judgement Island (Soul Society)",
+        "requirements": "Aizen Sword + Transcendent Being Title + True Aizen materials"
+      },
+      {
+        "name": "Yamato",
+        "emoji": "⚔️",
+        "description": "Very long M1 range, excellent AoE, fast animations and short cooldowns. Hardest acquisition in the game.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Judgement Island",
+        "requirements": "Blade Sovereign Title + Swordblessed Race + Yamato materials"
+      },
+      {
+        "name": "Escanor",
+        "emoji": "☀️",
+        "description": "Massive AoE damage and strong overall DPS. No Mastery questline. Drops from Boss Rush.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Escanor Boss (Boss Rush)",
+        "requirements": "0.6% Easy / 1.85% Extreme drop rate"
+      },
+      {
+        "name": "Rimuru",
+        "emoji": "🌀",
+        "description": "Great AoE and cooldowns, X skill excellent for AFK farming. Long animations are the only downside.",
+        "tags": [
+          "boss",
+          "farming"
+        ],
+        "location": "Slime Island",
+        "requirements": "Demon Lord Title + 20,000 Gems + Slime materials"
+      },
+      {
+        "name": "Shadow",
+        "emoji": "🌑",
+        "description": "Very good M1 damage, fast animations, excellent for PvE grinding. Extremely long Mastery questline.",
+        "tags": [
+          "pvp",
+          "farming"
+        ],
+        "location": "Dungeon Island",
+        "requirements": "1 Atomic Core + Shadow Essence + Void Seeds"
+      }
+    ],
+    "A": [
+      {
+        "name": "Ichigo",
+        "emoji": "🧡",
+        "description": "Best mid-game sword — very good AoE and damage, fast animations with many iFrames. No F move.",
+        "tags": [
+          "pvp",
+          "farming"
+        ],
+        "location": "Hueco Mundo",
+        "requirements": "500 Boss Tickets or 5,000,000 Cash + 8,500 Gems"
+      },
+      {
+        "name": "Aizen",
+        "emoji": "💜",
+        "description": "Relatively fast animations, good damage and AoE, iFrames on several moves. Weak without Mastery.",
+        "tags": [
+          "pvp"
+        ],
+        "location": "Hueco Mundo",
+        "requirements": "6,000,000 Cash + 10,000 Gems + Hogyoku Fragment"
+      },
+      {
+        "name": "Ragna",
+        "emoji": "⚫",
+        "description": "Decent damage and AoE, better than Jinwoo overall. Currently unobtainable.",
+        "tags": [
+          "pvp"
+        ],
+        "location": "Snow Island",
+        "requirements": "Currently unobtainable — 1,000,000 Cash + 4,500 Gems"
+      }
+    ],
+    "B": [
+      {
+        "name": "Jinwoo",
+        "emoji": "🟣",
+        "description": "Good mid-game sword with decent AoE. Lowest DPS of all Mythical Swords.",
+        "tags": [
+          "farming"
+        ],
+        "location": "Sailor Island",
+        "requirements": "2,500,000 Cash + 7,500 Gems + Abyss materials"
+      },
+      {
+        "name": "Saber",
+        "emoji": "🟡",
+        "description": "Easy to obtain and useful early. Much weaker than mythic swords.",
+        "tags": [
+          "farming"
+        ],
+        "location": "Boss Island",
+        "requirements": "65 Boss Tickets or Saber Boss (2% drop)"
+      }
+    ],
+    "C": [
+      {
+        "name": "Gryphon",
+        "emoji": "🦅",
+        "description": "Decent early-game sword. Good option until late game.",
+        "tags": [],
+        "location": "Shinjuku Station",
+        "requirements": "650,000 Cash + 650 Gems"
+      },
+      {
+        "name": "Dark Blade",
+        "emoji": "⬛",
+        "description": "Better than most fruits early on. X move good for early mob grinding.",
+        "tags": [],
+        "location": "Snow Island",
+        "requirements": "250,000 Cash + 150 Gems"
+      },
+      {
+        "name": "Katana",
+        "emoji": "🔪",
+        "description": "Very basic early game starter weapon. Quickly replaced.",
+        "tags": [],
+        "location": "Starter Island",
+        "requirements": "2,500 Cash"
+      }
+    ]
+  },
+  "melee": {
+    "S+": [
+      {
+        "name": "Moon Slayer",
+        "emoji": "🌙",
+        "description": "Strong damage and short cooldowns. Top melee spec with the Six Eyed Demon title requirement.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Boss Island",
+        "requirements": "Moon Slayer materials + Six Eyed Demon Title"
+      },
+      {
+        "name": "Strongest Shinobi",
+        "emoji": "🥷",
+        "description": "Strongest damage stats in the game. Long cooldowns are the only weakness.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Ninja Island",
+        "requirements": "Strongest Shinobi materials + Battlefield Warlord Title"
+      }
+    ],
+    "S": [
+      {
+        "name": "Anos",
+        "emoji": "😈",
+        "description": "Extremely high burst damage with V and F skills. Very large AoE. No Mastery questline.",
+        "tags": [
+          "pvp",
+          "boss",
+          "aoe"
+        ],
+        "location": "Academy Island",
+        "requirements": "Demon King Title + Voldigoat Clan + Calamity materials"
+      },
+      {
+        "name": "Corrupted Excalibur",
+        "emoji": "⚔️",
+        "description": "Massive F move damage and knockback. Very good for PvP combos.",
+        "tags": [
+          "pvp"
+        ],
+        "location": "Boss Island",
+        "requirements": "Corrupt Tyrant Title + 35,000 Gems + Corruption materials"
+      },
+      {
+        "name": "Gilgamesh",
+        "emoji": "👑",
+        "description": "Fast animations and strong DPS. V and F have many iFrames. AoE is narrow on some skills.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Boss Island",
+        "requirements": "Golden King Title + 25,000,000 Cash + 22,500 Gems"
+      },
+      {
+        "name": "Strongest in History",
+        "emoji": "💪",
+        "description": "Highest M1 damage of all melee specs. All skills deal multi-hit damage. Difficult to obtain.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Valentine Island",
+        "requirements": "Disgraced One Title + Cursed Flesh + Malevolent Soul"
+      }
+    ],
+    "A": [
+      {
+        "name": "Strongest of Today",
+        "emoji": "🔵",
+        "description": "Huge AoE on all skills, many iFrames. Amazing for dungeon grinding. Lower M1 damage.",
+        "tags": [
+          "pvp",
+          "farming",
+          "aoe"
+        ],
+        "location": "Shinjuku Island",
+        "requirements": "Strongest Sorcerer Title + Infinity Essence + Six Eyes"
+      },
+      {
+        "name": "Madoka",
+        "emoji": "🌸",
+        "description": "Strong burst and AoE. Excellent for boss fights. No Mastery questline.",
+        "tags": [
+          "boss"
+        ],
+        "location": "Shinjuku Island",
+        "requirements": "Star Maiden Title + 20,000,000 Cash + 15,000 Gems + Pink Gem"
+      },
+      {
+        "name": "Alucard",
+        "emoji": "🧛",
+        "description": "Good mid-game spec with fast animations and low cooldowns. Requires Vampire race.",
+        "tags": [
+          "pvp",
+          "farming"
+        ],
+        "location": "Sailor Island",
+        "requirements": "Vampire King Title + Vampire Race + 6,500,000 Cash"
+      },
+      {
+        "name": "Qin Shi",
+        "emoji": "🏯",
+        "description": "Very easy to obtain. Great early option with short cooldowns. Falls off hard later.",
+        "tags": [
+          "farming"
+        ],
+        "location": "Boss Island",
+        "requirements": "250 Boss Tickets or 500,000 Cash + 2,500 Gems"
+      }
+    ],
+    "B": [
+      {
+        "name": "Sukuna",
+        "emoji": "🔴",
+        "description": "Strong early damage with decent AoE. Fast animations. Useless in late game.",
+        "tags": [
+          "pvp"
+        ],
+        "location": "Shibuya Station Island",
+        "requirements": "1,250,000 Cash + 5,000 Gems + Cursed materials"
+      },
+      {
+        "name": "Gojo",
+        "emoji": "🔭",
+        "description": "Good skill damage, easy to obtain. Long animations and worst Mythical melee spec.",
+        "tags": [
+          "pvp"
+        ],
+        "location": "Shibuya Station Island",
+        "requirements": "750,000 Cash + 4,000 Gems + Limitless Ring"
+      },
+      {
+        "name": "Yuji",
+        "emoji": "🟠",
+        "description": "Better damage than Katana Sword early on. Decent AoE but very short M1 range.",
+        "tags": [
+          "farming"
+        ],
+        "location": "Shibuya Station Island",
+        "requirements": "Divergent Pulse + Flash Impact + Energy Core"
+      }
+    ],
+    "C": [
+      {
+        "name": "Combat",
+        "emoji": "👊",
+        "description": "Default starter spec. Only useful until you can buy Katana Sword.",
+        "tags": [],
+        "location": "Default",
+        "requirements": "None — starting spec"
+      }
+    ]
+  },
+  "races": {
+    "S+": [
+      {
+        "name": "Luckborn",
+        "emoji": "🍀",
+        "description": "Best luck stat bonus of all races. Improves both melee and sword damage. Added in Ice Update.",
+        "tags": [
+          "farming"
+        ],
+        "bonuses": "+35% Luck, +Melee DMG, +Sword DMG",
+        "rarity": "Mythic"
+      },
+      {
+        "name": "SwordBlessed",
+        "emoji": "⚔️",
+        "description": "Best race for sword builds. +20% Sword DMG Multiplier is the highest of any race.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "bonuses": "+20% Sword DMG Multi, +HP",
+        "rarity": "Mythic"
+      },
+      {
+        "name": "Galevorn",
+        "emoji": "🌪️",
+        "description": "Best race for melee builds. +20% Melee DMG Multiplier dominates melee-focused content.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "bonuses": "+20% Melee DMG Multi, +HP",
+        "rarity": "Mythic"
+      }
+    ],
+    "S": [
+      {
+        "name": "Warlord",
+        "emoji": "⚔️",
+        "description": "Massive HP, damage boosts, and the best damage multiplier in the game. Low lifesteal.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "bonuses": "+DMG Multi, +Max HP, +Melee DMG, +Lifesteal",
+        "rarity": "Mythic"
+      },
+      {
+        "name": "Sunborn",
+        "emoji": "☀️",
+        "description": "Massive HP boosts, sword DMG multipliers, and lifesteal. Best all-round race for survivability + DPS.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "bonuses": "+Sword DMG Multi, +Max HP, +DMG, +Lifesteal",
+        "rarity": "Mythic"
+      },
+      {
+        "name": "Servant",
+        "emoji": "🛡️",
+        "description": "Perfect for melee builds. Strong melee multiplier + high HP + lifesteal + damage reduction.",
+        "tags": [
+          "boss",
+          "farming"
+        ],
+        "bonuses": "+Melee DMG Multi, +Max HP, +Lifesteal, +DMG Reduction",
+        "rarity": "Mythic"
+      },
+      {
+        "name": "Kitsune",
+        "emoji": "🦊",
+        "description": "Strong damage bonuses and powerful luck multiplier. Best race for grinding rare drops.",
+        "tags": [
+          "farming"
+        ],
+        "bonuses": "+25% Luck Multi, +Overall DMG",
+        "rarity": "Mythic"
+      }
+    ],
+    "A": [
+      {
+        "name": "Slime",
+        "emoji": "🟢",
+        "description": "Excellent survivability and sword scaling. Best race for sword-focused builds outside S+.",
+        "tags": [
+          "boss"
+        ],
+        "bonuses": "+Sword Scaling, +Survivability",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Leviathan",
+        "emoji": "🌊",
+        "description": "High lifesteal and solid damage bonuses. Strong for long boss fights.",
+        "tags": [
+          "boss"
+        ],
+        "bonuses": "+High Lifesteal, +DMG",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Oni",
+        "emoji": "👹",
+        "description": "Focuses on melee damage and durability. Works very well with melee specs.",
+        "tags": [
+          "pvp"
+        ],
+        "bonuses": "+Melee DMG, +Durability",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Hollow",
+        "emoji": "💀",
+        "description": "Strong bonuses for Ichigo builds. Value decreases with other weapons.",
+        "tags": [
+          "pvp"
+        ],
+        "bonuses": "+Ichigo synergy, +HP",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Shinigami",
+        "emoji": "⚫",
+        "description": "Significantly boosts Aizen builds. Solid HP and damage stats universally.",
+        "tags": [
+          "pvp"
+        ],
+        "bonuses": "+Aizen synergy, +HP, +DMG",
+        "rarity": "Legendary"
+      }
+    ],
+    "B": [
+      {
+        "name": "Shadowborn",
+        "emoji": "🌑",
+        "description": "Powerful when paired with Shadow swords. More average without that synergy.",
+        "tags": [
+          "pvp"
+        ],
+        "bonuses": "+Shadow Sword synergy",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Player",
+        "emoji": "🎮",
+        "description": "Balanced stats, boosts Jinwoo swords. Usefulness depends on weapon.",
+        "tags": [],
+        "bonuses": "+Jinwoo synergy, +Balanced",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Vessel",
+        "emoji": "🧿",
+        "description": "Works best with Sukuna builds. Average outside that synergy.",
+        "tags": [],
+        "bonuses": "+Sukuna synergy",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Limitless",
+        "emoji": "♾️",
+        "description": "Boosts Gojo melee abilities. Lacks strong general bonuses.",
+        "tags": [],
+        "bonuses": "+Gojo synergy",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Vampire",
+        "emoji": "🧛",
+        "description": "Provides lifesteal and decent damage. Overall stat values lower than higher tier races.",
+        "tags": [],
+        "bonuses": "+Lifesteal, +DMG",
+        "rarity": "Rare"
+      }
+    ],
+    "C": [
+      {
+        "name": "Demon",
+        "emoji": "😈",
+        "description": "Sprint speed and basic damage bonuses. Useful early, quickly outclassed.",
+        "tags": [],
+        "bonuses": "+Sprint Speed, +Basic DMG",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Orc",
+        "emoji": "💚",
+        "description": "Minor HP and damage increases. Useful in early game only.",
+        "tags": [],
+        "bonuses": "+HP, +Minor DMG",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Fishman",
+        "emoji": "🐟",
+        "description": "Increases money and EXP gain. Useful for leveling, no combat value.",
+        "tags": [
+          "farming"
+        ],
+        "bonuses": "+Money, +EXP Gain",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Mink",
+        "emoji": "🐾",
+        "description": "Improves movement stats (jump height, speed). Zero damage bonuses.",
+        "tags": [],
+        "bonuses": "+Jump Height, +Move Speed",
+        "rarity": "Uncommon"
+      }
+    ],
+    "D": [
+      {
+        "name": "Skypea",
+        "emoji": "☁️",
+        "description": "Only grants extra jumps. Almost no combat advantage.",
+        "tags": [],
+        "bonuses": "+Extra Jumps",
+        "rarity": "Common"
+      },
+      {
+        "name": "Human",
+        "emoji": "🧑",
+        "description": "No stat bonuses at all. Reroll as soon as possible.",
+        "tags": [],
+        "bonuses": "None",
+        "rarity": "Common"
+      }
+    ]
+  },
+  "traits": {
+    "S+": [
+      {
+        "name": "Emperor",
+        "emoji": "👑",
+        "description": "Best damage boost trait in the game. Best cooldown reduction. Mandatory for top builds.",
+        "tags": [
+          "pvp",
+          "boss",
+          "farming"
+        ]
+      },
+      {
+        "name": "Swordblessed",
+        "emoji": "⚔️",
+        "description": "Best trait for sword builds — pairs with Warlord or Kitsune race for the ultimate sword meta.",
+        "tags": [
+          "pvp",
+          "boss"
+        ]
+      }
+    ],
+    "S": [
+      {
+        "name": "Celestial",
+        "emoji": "✨",
+        "description": "Extremely high damage scaling + strong defense bonuses. Cooldown reduction makes abilities available more often.",
+        "tags": [
+          "pvp",
+          "boss"
+        ]
+      },
+      {
+        "name": "Singularity",
+        "emoji": "🌌",
+        "description": "High damage multipliers and excellent defensive scaling. One of the most balanced powerful traits.",
+        "tags": [
+          "pvp",
+          "boss"
+        ]
+      },
+      {
+        "name": "Cataclysm",
+        "emoji": "💥",
+        "description": "Heavy damage output with strong defensive bonuses. Works well with nearly every build.",
+        "tags": [
+          "pvp",
+          "boss",
+          "farming"
+        ]
+      },
+      {
+        "name": "Overlord",
+        "emoji": "🌑",
+        "description": "Massive defense scaling and high damage bonuses. Very strong in difficult boss fights and late game.",
+        "tags": [
+          "boss"
+        ]
+      },
+      {
+        "name": "Malevolent",
+        "emoji": "😈",
+        "description": "Excellent damage multipliers and cooldown reduction. Slightly weaker than top traits but still dominant.",
+        "tags": [
+          "pvp",
+          "boss"
+        ]
+      }
+    ],
+    "A": [
+      {
+        "name": "Transcendent",
+        "emoji": "🌠",
+        "description": "Strong damage and defense bonuses. Performs well but doesn't reach S tier power.",
+        "tags": [
+          "pvp",
+          "boss"
+        ]
+      },
+      {
+        "name": "Infinity",
+        "emoji": "♾️",
+        "description": "Solid multipliers and cooldown reduction. Great for builds relying on frequent skill usage.",
+        "tags": [
+          "pvp"
+        ]
+      },
+      {
+        "name": "Godspeed",
+        "emoji": "⚡",
+        "description": "Focuses on cooldown reduction over damage. More abilities more often.",
+        "tags": [
+          "pvp",
+          "farming"
+        ]
+      },
+      {
+        "name": "Sovereign",
+        "emoji": "🏰",
+        "description": "Very strong defensive scaling. Damage bonus is lower compared to other A-tier traits.",
+        "tags": [
+          "boss"
+        ]
+      },
+      {
+        "name": "Genesis",
+        "emoji": "🌱",
+        "description": "Balanced stats without any standout bonuses. Solid all-rounder.",
+        "tags": []
+      }
+    ],
+    "B": [
+      {
+        "name": "Dominator",
+        "emoji": "🔱",
+        "description": "Decent damage and defense boosts. Works well early, weaker later.",
+        "tags": []
+      },
+      {
+        "name": "Unstoppable",
+        "emoji": "🛡️",
+        "description": "Strong defense but weaker damage scaling.",
+        "tags": []
+      },
+      {
+        "name": "Overdrive",
+        "emoji": "⚙️",
+        "description": "Moderate bonuses and small cooldown reduction.",
+        "tags": []
+      },
+      {
+        "name": "Ascended",
+        "emoji": "🔺",
+        "description": "Balanced damage and defense but nothing exceptional.",
+        "tags": []
+      }
+    ],
+    "C": [
+      {
+        "name": "Breaker",
+        "emoji": "💢",
+        "description": "Mainly defense, lacks strong offensive bonuses.",
+        "tags": []
+      },
+      {
+        "name": "Sharpened",
+        "emoji": "🔪",
+        "description": "Minor damage increase, almost no defensive value.",
+        "tags": []
+      },
+      {
+        "name": "Vicious",
+        "emoji": "🩸",
+        "description": "Minor stat boosts and small cooldown reduction.",
+        "tags": []
+      },
+      {
+        "name": "Predator",
+        "emoji": "🐺",
+        "description": "Minor damage increase, weak defensive scaling.",
+        "tags": []
+      },
+      {
+        "name": "Driven",
+        "emoji": "🎯",
+        "description": "Small bonuses that quickly become outdated.",
+        "tags": []
+      }
+    ],
+    "D": [
+      {
+        "name": "Balanced",
+        "emoji": "⚖️",
+        "description": "Small damage and defense bonuses easily replaced.",
+        "tags": []
+      },
+      {
+        "name": "Steady",
+        "emoji": "🗿",
+        "description": "Weak defensive scaling, limited offensive value.",
+        "tags": []
+      },
+      {
+        "name": "Agile",
+        "emoji": "🏃",
+        "description": "Minor cooldown reduction only, no other useful bonuses.",
+        "tags": []
+      },
+      {
+        "name": "Strong",
+        "emoji": "💪",
+        "description": "Minimal damage increases.",
+        "tags": []
+      },
+      {
+        "name": "Tough",
+        "emoji": "🦷",
+        "description": "Minor defense increase, does not improve damage.",
+        "tags": []
+      }
+    ]
+  },
+  "runes": {
+    "S+": [
+      {
+        "name": "Primordial Rune",
+        "emoji": "🌟",
+        "description": "Secret rune — best DPS rune in the entire game. Extremely rare to obtain.",
+        "tags": [
+          "pvp",
+          "boss"
+        ]
+      },
+      {
+        "name": "Radiant Rune",
+        "emoji": "☀️",
+        "description": "Best rune for farming — improves both luck and drop rates significantly.",
+        "tags": [
+          "farming"
+        ]
+      }
+    ],
+    "S": [
+      {
+        "name": "Havoc Rune",
+        "emoji": "💥",
+        "description": "Best DPS rune with a 82% damage boost. Excellent for solo clearing bosses and endgame grinding.",
+        "tags": [
+          "pvp",
+          "boss"
+        ]
+      },
+      {
+        "name": "Wrath Rune",
+        "emoji": "😡",
+        "description": "Second highest damage boost in the game. Best option if you don't have Havoc Rune.",
+        "tags": [
+          "pvp",
+          "boss"
+        ]
+      },
+      {
+        "name": "Fortune Rune",
+        "emoji": "🍀",
+        "description": "Increases luck — improves chance of rare drops. Extremely valuable for farming bosses and items.",
+        "tags": [
+          "farming"
+        ]
+      }
+    ],
+    "A": [
+      {
+        "name": "Destruction Rune",
+        "emoji": "💀",
+        "description": "Strong damage boost, but not as high as Havoc or Wrath. Solid alternative.",
+        "tags": [
+          "pvp",
+          "boss"
+        ]
+      }
+    ],
+    "B": [
+      {
+        "name": "Inferno Rune",
+        "emoji": "🔥",
+        "description": "Applies burn DoT to enemies. Useful in longer fights but weaker than direct damage boosts.",
+        "tags": [
+          "boss"
+        ]
+      },
+      {
+        "name": "Blood Rune",
+        "emoji": "🩸",
+        "description": "Causes enemies to bleed for extra damage over time. Decent effect, not top-tier.",
+        "tags": [
+          "boss"
+        ]
+      }
+    ],
+    "C": [
+      {
+        "name": "Frost Rune",
+        "emoji": "❄️",
+        "description": "Briefly freezes enemies and increases damage slightly. Situational and unreliable.",
+        "tags": []
+      },
+      {
+        "name": "Guardian Rune",
+        "emoji": "🛡️",
+        "description": "Increases maximum HP for survivability. Does not boost damage — limited usefulness.",
+        "tags": []
+      },
+      {
+        "name": "Suppression Rune",
+        "emoji": "⬇️",
+        "description": "Provides minor damage reduction. Very minor effect compared to other rune bonuses.",
+        "tags": []
+      }
+    ]
+  },
+  "clans": {
+    "S+": [
+      {
+        "name": "Frostbane",
+        "emoji": "❄️",
+        "description": "Passive stacks damage for late-game boss slaying. Additional luck for more drops. Added in Ice Update.",
+        "tags": [
+          "pvp",
+          "boss",
+          "farming"
+        ],
+        "bonuses": "+40% DMG, +47% HP, +10% Sword DMG"
+      },
+      {
+        "name": "Upper",
+        "emoji": "⬆️",
+        "description": "One of the strongest stat-boosting clans. Passive deals more damage after every skill used.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "bonuses": "+40% DMG, +50% Max HP, +12% Melee DMG, +12% Luck"
+      },
+      {
+        "name": "Alter",
+        "emoji": "🌑",
+        "description": "Huge damage and HP boosts. Passive constantly deals damage for using abilities. Best for long boss fights.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "bonuses": "+High DMG, +High HP"
+      },
+      {
+        "name": "Espada",
+        "emoji": "🏴",
+        "description": "Balanced stats with similar passive mechanic to Alter. Excellent for boss fights and long battles.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "bonuses": "+Balanced DMG and HP"
+      }
+    ],
+    "S": [
+      {
+        "name": "Pride",
+        "emoji": "🦁",
+        "description": "Huge damage and HP boosts with a stacking damage mechanic. One of the strongest for boss fights.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "bonuses": "+Stacking DMG, +Max HP"
+      },
+      {
+        "name": "Monarch",
+        "emoji": "👑",
+        "description": "Strong damage bonuses and chance to gain extra drops. Best clan for farming rare materials.",
+        "tags": [
+          "pvp",
+          "farming"
+        ],
+        "bonuses": "+DMG, +Chance for Extra Drops"
+      },
+      {
+        "name": "Voldigoat",
+        "emoji": "🐐",
+        "description": "Increases damage against low HP enemies. Extremely powerful for finishing bosses quickly.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "bonuses": "+DMG vs Low HP Enemies"
+      }
+    ],
+    "A": [
+      {
+        "name": "Mugetsu",
+        "emoji": "⚫",
+        "description": "Balanced bonuses including damage, HP, lifesteal, and damage reduction. Works for most builds.",
+        "tags": [
+          "boss"
+        ],
+        "bonuses": "+DMG, +HP, +Lifesteal, +DMG Reduction"
+      },
+      {
+        "name": "Yamato",
+        "emoji": "⚔️",
+        "description": "Solid damage and HP bonuses while increasing gem gains. Useful for farming resources.",
+        "tags": [
+          "farming"
+        ],
+        "bonuses": "+DMG, +HP, +Gem Gains"
+      },
+      {
+        "name": "Zoldyck",
+        "emoji": "🎭",
+        "description": "Improves sprint speed and gem gain while offering decent damage bonuses.",
+        "tags": [
+          "farming"
+        ],
+        "bonuses": "+Sprint Speed, +Gem Gain, +DMG"
+      }
+    ],
+    "B": [
+      {
+        "name": "Raikage",
+        "emoji": "⚡",
+        "description": "Moderate stat boosts with money and gem bonuses. Helpful early, weaker for end-game combat.",
+        "tags": [],
+        "bonuses": "+Moderate Stats, +Money, +Gems"
+      }
+    ],
+    "C": [
+      {
+        "name": "Sasaki",
+        "emoji": "🌙",
+        "description": "Small damage and XP bonuses. Lacks strong scaling compared to other clans.",
+        "tags": [],
+        "bonuses": "+Small DMG, +XP"
+      }
+    ]
+  },
+  "artifacts": {
+    "S+": [
+      {
+        "name": "Abyssal Crown Set",
+        "emoji": "👑",
+        "description": "Best DPS bonuses and crit stats in the game. Hard to farm higher rarity pieces.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Ninja Island, Lawless Island"
+      }
+    ],
+    "S": [
+      {
+        "name": "Celestial Rupture Set",
+        "emoji": "✨",
+        "description": "Best DPS bonuses paired with lifesteal. Hard to farm but top-tier performance.",
+        "tags": [
+          "pvp",
+          "boss"
+        ],
+        "location": "Shinjuku, Valentine, Slime, Academy Islands"
+      }
+    ],
+    "A": [
+      {
+        "name": "Void Reaver Set",
+        "emoji": "🌌",
+        "description": "Good early-to-mid game damage bonuses. Slightly weaker in late game.",
+        "tags": [
+          "farming",
+          "boss"
+        ],
+        "location": "Boss drops"
+      }
+    ],
+    "B": [
+      {
+        "name": "Black Horizon Set",
+        "emoji": "⬛",
+        "description": "Strong critical damage scaling. Lower base stats than higher tiers.",
+        "tags": [
+          "pvp"
+        ],
+        "location": "Hueco Mundo"
+      }
+    ],
+    "C": [
+      {
+        "name": "Crownless Regalia Set",
+        "emoji": "🏚️",
+        "description": "Good defensive bonuses. Lower damage output — more suitable for tanky builds.",
+        "tags": [],
+        "location": "Desert, Snow, Shibuya Islands"
+      },
+      {
+        "name": "Ashen Chronicles Set",
+        "emoji": "📜",
+        "description": "Balanced defensive bonuses. Weak damage scaling overall.",
+        "tags": [],
+        "location": "Jungle Island"
+      }
+    ]
+  },
+  "synergies": [
+    {
+      "name": "Emperor Meta (PvP)",
+      "items": [
+        "Light Fruit",
+        "Yamato",
+        "Emperor",
+        "SwordBlessed"
+      ],
+      "description": "The dominant PvP meta — Light speed + Yamato range + Emperor cooldowns + SwordBlessed DMG multi",
+      "type": "pvp",
+      "rating": "S+"
+    },
+    {
+      "name": "Farming King",
+      "items": [
+        "Kitsune Fruit",
+        "Shadow",
+        "Fortune Rune",
+        "Monarch"
+      ],
+      "description": "Maximum drop rate farming build — Kitsune luck + Fortune Rune + Monarch drop bonus",
+      "type": "farming",
+      "rating": "S+"
+    },
+    {
+      "name": "Boss Destroyer",
+      "items": [
+        "Dragon Fruit",
+        "Shadow Monarch",
+        "Frostbane",
+        "Celestial"
+      ],
+      "description": "Top-tier boss burst — Dragon versatility + Shadow Monarch damage + Frostbane stacking + Celestial scaling",
+      "type": "boss",
+      "rating": "S+"
+    },
+    {
+      "name": "Ice Queen Bruiser",
+      "items": [
+        "Ice Queen",
+        "Luckborn",
+        "Emperor",
+        "Havoc Rune"
+      ],
+      "description": "New Ice Update meta — Ice Queen AoE + Emperor cooldowns + Havoc 82% damage boost",
+      "type": "pvp",
+      "rating": "S+"
+    },
+    {
+      "name": "Melee Berserker",
+      "items": [
+        "Moon Slayer",
+        "Warlord",
+        "Cataclysm",
+        "Upper"
+      ],
+      "description": "Pure melee DPS — Moon Slayer top spec + Warlord DMG multi + Cataclysm damage + Upper stacking passive",
+      "type": "boss",
+      "rating": "S"
+    },
+    {
+      "name": "Lucky Grinder",
+      "items": [
+        "Kitsune Fruit",
+        "Fortune Rune",
+        "Radiant Rune",
+        "Monarch"
+      ],
+      "description": "Maximize rare drop chances — best farming setup in the game",
+      "type": "farming",
+      "rating": "S"
+    }
+  ],
+  "gameMeta": {
+    "maxLevel": 6250,
+    "activeCodes": [
+      "VERYSORRYFORETHEDELAYGUYS",
+      "ALOTOFNEWCONTENTSEA2",
+      "700MVISITSWOWW"
+    ],
+    "codeRewards": "35-40x Power Shards per code",
+    "upcomingContent": {
+      "Sea 2": "4 new islands, Guilds, Bloodlines, World Bosses, Sea Beasts",
+      "NewSpecs": "Frieren, Castorice, Cosmic Garou, DIO — coming with Sea 2",
+      "JoJoIsland": "Part 5 / Golden Wind Roman theme — confirmed for Sea 2",
+      "EasterEvent": "Active until April 22, 2026"
+    },
+    "fruitSpawnRate": "Every 60 minutes under trees, despawn after 20 minutes",
+    "fruitSources": [
+      "Gacha NPC",
+      "Ground Spawns",
+      "Fruit Dealers on Sailor Island"
+    ],
+    "hakiTypes": [
+      "Buso Haki (Armament)",
+      "Kenbunshoku Haki (Observation)",
+      "Conqueror's Haki"
+    ],
+    "dungeons": "Dungeon keys required — collect Puzzle Pieces to unlock"
+  },
+  "fruitTypes": {
+    "Elemental": {
+      "label": "Elemental (Logia)",
+      "description": "Transform your body into a natural element. Grants immunity to physical attacks at low Haki mastery. These fruits are some of the most common top-tier choices.",
+      "color": "#ff9a3c",
+      "emoji": "⚡",
+      "fruits": [
+        "Light",
+        "Flame",
+        "Ice",
+        "Magma",
+        "Darkness",
+        "Snow"
+      ],
+      "wikiNote": "Logia fruits provide Logia immunity — enemies without Armament Haki cannot damage you."
+    },
+    "Natural": {
+      "label": "Natural (Paramecia)",
+      "description": "Special body modifications or unique environmental powers. No elemental immunity but highest raw damage potential. Quake and Fiend are the top Natural fruits.",
+      "color": "#2ed573",
+      "emoji": "🌿",
+      "fruits": [
+        "Quake",
+        "Fiend",
+        "Bomb",
+        "Invisible",
+        "Spirit",
+        "Dark",
+        "Spin",
+        "Blood"
+      ],
+      "wikiNote": "Natural fruits have the highest raw damage — Quake is the best AFK farming fruit in the game."
+    },
+    "Beast": {
+      "label": "Beast (Zoan)",
+      "description": "Transform into a powerful creature or beast. Grants a large bonus to HP, access to beast-form abilities, and often flight. Dragon and Kitsune are the current Beast fruits.",
+      "color": "#a855f7",
+      "emoji": "🐉",
+      "fruits": [
+        "Dragon",
+        "Kitsune"
+      ],
+      "wikiNote": "Zoan fruits grant HP bonuses and beast-form moves. Dragon can fly; Kitsune provides a Luck multiplier."
+    },
+    "Mythical": {
+      "label": "Mythical (Ancient Zoan)",
+      "description": "The rarest and most powerful transformation fruits in the game. Based on mythological creatures with unique overpowered abilities unavailable to other fruit types.",
+      "color": "#ff4757",
+      "emoji": "✨",
+      "fruits": [
+        "Phoenix",
+        "Nika",
+        "Spider"
+      ],
+      "wikiNote": "Mythical Zoans are the rarest obtainable fruits — often unlocked through special events or endgame content."
+    }
+  }
+}

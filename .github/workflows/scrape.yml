@@ -1,0 +1,102 @@
+name: "Sync Fandom Wiki"
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fandom-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    name: "Scrape Fandom and update data.json"
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+
+      - name: "Checkout"
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: "Setup Python"
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: "Cache Playwright"
+        id: pw-cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: pw-chromium-${{ runner.os }}
+
+      - name: "Install playwright"
+        run: pip install playwright --quiet
+
+      - name: "Install Chromium"
+        if: steps.pw-cache.outputs.cache-hit != 'true'
+        run: playwright install --with-deps chromium
+
+      - name: "Install Chromium system deps"
+        if: steps.pw-cache.outputs.cache-hit == 'true'
+        run: playwright install-deps chromium
+
+      - name: "Run scraper"
+        run: python scripts/scraper.py --ci
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: ~/.cache/ms-playwright
+        continue-on-error: true
+
+      - name: "Check for changes"
+        id: diff
+        run: |
+          if git diff --quiet public/data.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes to data.json"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "data.json updated"
+            git diff --stat public/data.json
+          fi
+
+      - name: "Commit and push"
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "Sailor Piece Bot"
+          git config user.email "bot@sailorpiece.hub"
+          git add public/data.json
+          git commit -m "Auto-sync Fandom wiki $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+
+      - name: "Summary"
+        if: always()
+        run: |
+          python3 -c "
+          import json, os
+          try:
+              d = json.load(open('public/data.json'))
+              cats = ['fruits','swords','melee','races','traits','runes','clans','artifacts']
+              lines = ['## Sailor Piece Wiki Sync']
+              lines.append('| Category | Items |')
+              lines.append('|---|---|')
+              for c in cats:
+                  n = sum(len(v) for v in d.get(c, {}).values())
+                  lines.append(f'| {c} | {n} |')
+              ok = d.get('meta', {}).get('fandomSuccess')
+              lines.append(f'')
+              lines.append(f'**Fandom:** {chr(9989) + \" Success\" if ok else chr(9888) + \" Partial\"}')
+              out = chr(10).join(lines)
+              f = os.environ.get('GITHUB_STEP_SUMMARY')
+              if f:
+                  open(f, 'a').write(out)
+              print(out)
+          except Exception as e:
+              print('Summary error:', e)
+          "

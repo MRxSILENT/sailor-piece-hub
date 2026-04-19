@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sailor Piece Hub — Tier Lists, AI Builder, Blog & Fandom Wiki" />
+  <title>Sailor Piece Hub</title>
+  <link rel="icon" href="public/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Rajdhani:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#/" class="brand">
+        <span class="brand-anchor">⚓</span>
+        <span class="brand-name">Sailor<span class="brand-gold">Piece</span></span>
+        <span class="brand-sub">Hub</span>
+      </a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Menu">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#/"          class="nav-link" data-page="home">⚓ Home</a>
+        <a href="#/tierlist"  class="nav-link" data-page="tierlist">🏆 Tier List</a>
+        <a href="#/builder"   class="nav-link" data-page="builder">🧠 AI Builder</a>
+        <a href="#/blog"      class="nav-link" data-page="blog">📝 Blog</a>
+        <a href="#/wiki"      class="nav-link" data-page="wiki">📖 Wiki <span class="live-dot"></span></a>
+        <a href="#/favorites" class="nav-link" data-page="favorites">❤️ Favorites <span class="fav-count" id="fav-count" hidden>0</span></a>
+        <a href="#/admin"     class="nav-link nav-admin" data-page="admin" id="admin-nav-link">
+          <span id="admin-nav-icon">🔒</span> Admin
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main" id="app">
+    <div class="loading-screen"><div class="spinner"></div><p>Loading...</p></div>
+  </main>
+
+  <div class="stars-bg" aria-hidden="true"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
